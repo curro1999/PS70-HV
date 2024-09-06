@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project Idea</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Noto Sans', monospace;
-            color: #39ff14; 
+            font-family: 'Source Code Pro', monospace;
+            color: #39ff14;
             min-height: 100vh;
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODl3Mnl1dmU1aHpzbGlkYnMycjE1amxqdnd0MHUyNHQyZXlleHh4NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9Zw/8w61HSu6xQjoa2NzKN/giphy.webp');
+            background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjUyNjB0ejNmZnNyaXEwdmoyOXBhc2w0NHd6aDg5b3JzNG0zZ2p4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y9s5ybJoWEUznNGi51/giphy.webp');
             background-size: cover;
             background-position: center;
-            background-repeat: repeat-y; /* Repetir el fondo verticalmente */
+            background-repeat: no-repeat;
+            overflow: hidden;
+            position: relative;
         }
 
         .content {
@@ -28,55 +30,50 @@
             margin-right: 10%;
             margin-top: 5%;
             text-align: left;
-            color: white; /* Color blanco para el subtítulo y el texto adicional */
+            color: white;
         }
 
         .title {
             font-size: 4em;
             margin: 0;
-            color: #39ff14; 
-        }
-
-        .title em {
-            font-style: href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+            color: #39ff14;
         }
 
         .subtitle {
             font-size: 1.5em;
             margin-top: 10px;
             margin-bottom: 20px;
-            color: yellow; 
+            color: yellow;
         }
 
         .text {
             font-size: 1.2em;
             margin: 0;
-            margin-bottom: 60px; /* Añadir espacio debajo de este párrafo */
+            margin-bottom: 60px;
         }
 
         .text a {
-            color: #39ff14; /* Verde fosforito para el enlace */
+            color: #39ff14;
             text-decoration: none;
         }
 
         .text a:hover {
-            text-decoration: underline; /* Subrayado al pasar el mouse por encima */
+            text-decoration: underline;
         }
 
         .image {
             margin-top: 20px;
-            text-align: left; /* Alinear la imagen a la izquierda */
+            text-align: left;
         }
 
         .image img {
             max-width: 25%;
             height: auto;
-            border: 2px solid #39ff14; /* Borde verde */
-            display: block; /* Asegura que la imagen esté en su propia línea */
-            margin-bottom: 20px; /* Añade un margen debajo de la imagen */
+            border: 2px solid #39ff14;
+            display: block;
+            margin-bottom: 20px;
         }
 
-        /* Estilo para la imagen "home.png" */
         .home-link {
             position: absolute;
             top: 5%;
@@ -84,9 +81,8 @@
         }
 
         .home-link img {
-            width: 130px; /* Ajusta el tamaño de la imagen */
+            width: 130px;
             height: auto;
-            transform: rotate(0deg); /* Gira la imagen 15 grados hacia arriba a la derecha */
         }
     </style>
 </head>
@@ -99,13 +95,13 @@
             Introduction
         </div>
         <div class="text">
-            This projects aims to scale and customize the existing <a href="https://pioreactor.com/?srsltid=AfmBOoo5Gn7iFJe_PQtD7GVyW1AGFdQYLFSCQR1DeV9J7KWXmVCRaJ_z" target="_blank">PioReactor</a>. The idea verses around taking advantage of the existing software of the company to incorporate my own sensors, personalize with code on the UI and build with the technologies of PS70 the proptotype. 
+            This project aims to scale and customize the existing <a href="https://pioreactor.com/?srsltid=AfmBOoo5Gn7iFJe_PQtD7GVyW1AGFdQYLFSCQR1DeV9J7KWXmVCRaJ_z" target="_blank">PioReactor</a>. The idea revolves around taking advantage of the existing software of the company to incorporate my own sensors, personalize with code on the UI, and build the prototype with PS70 technologies.
         </div>          
         <div class="subtitle">
             Why is this relevant?
         </div>
         <div class="text">
-            You like wine? Beer? Well, what makes boring grape juice a tasty wine is fermentation, done by m.i.c.r.o.b.e.s. I work in gastronomy, my focus is on making delicious foods, and one tool I use is selecting different microbes, droping them together in a cocktail shaker and BANG! Now, in order to do this, i kinda need to controll them. The PioReactor is sick, but it only works with single cultures and doesnt allow other sensors like the ones I use. So hell yea! Lets build my own! And one of the coolest things is that mixed-cultures is actually quite a hot topyc right now on microbiology but sadly there is not much tech about it...
+            You like wine? Beer? Well, what makes boring grape juice a tasty wine is fermentation, done by m.i.c.r.o.b.e.s. I work in gastronomy, my focus is on making delicious foods, and one tool I use is selecting different microbes, dropping them together in a cocktail shaker and BANG! Now, in order to do this, I kinda need to control them. The PioReactor is sick, but it only works with single cultures and doesn’t allow other sensors like the ones I use. So hell yeah! Let's build my own! And one of the coolest things is that mixed-cultures are actually quite a hot topic right now in microbiology, but sadly there isn’t much tech about it...
         </div>          
         <div class="subtitle">
             General Sketch
@@ -118,10 +114,8 @@
         </div> 
     </div>
     
-    <!-- Enlace con la imagen "home.png" -->
     <a class="home-link" href="file:///Users/curropolo/Documents/GitHub/PS70-HV/index.html">
         <img src="home.png" alt="Home">
     </a>
-
 </body>
 </html>
