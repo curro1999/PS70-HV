@@ -10,16 +10,15 @@
             margin: 0;
             padding: 0;
             font-family: 'Noto Sans', monospace;
-            color: #ff66c4; /* Color rosa */
-            height: 100vh;
+            color: #39ff14; 
+            min-height: 100vh;
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODl3Mnl1dmU1aHpzbGlkYnMycjE1amxqdnd0MHUyNHQyZXlleHh4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8w61HSu6xQjoa2NzKN/giphy.webp');
+            background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODl3Mnl1dmU1aHpzbGlkYnMycjE1amxqdnd0MHUyNHQyZXlleHh4NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9Zw/8w61HSu6xQjoa2NzKN/giphy.webp');
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
-          
+            background-repeat: repeat-y; /* Repetir el fondo verticalmente */
         }
 
         .content {
@@ -35,7 +34,7 @@
         .title {
             font-size: 4em;
             margin: 0;
-            color: #ff66c4; 
+            color: #39ff14; 
         }
 
         .title em {
@@ -63,6 +62,32 @@
         .text a:hover {
             text-decoration: underline; /* Subrayado al pasar el mouse por encima */
         }
+
+        .image {
+            margin-top: 20px;
+            text-align: left; /* Alinear la imagen a la izquierda */
+        }
+
+        .image img {
+            max-width: 25%;
+            height: auto;
+            border: 2px solid #39ff14; /* Borde verde */
+            display: block; /* Asegura que la imagen esté en su propia línea */
+            margin-bottom: 20px; /* Añade un margen debajo de la imagen */
+        }
+
+        /* Estilo para la imagen "home.png" */
+        .home-link {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+        }
+
+        .home-link img {
+            width: 130px; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            transform: rotate(0deg); /* Gira la imagen 15 grados hacia arriba a la derecha */
+        }
     </style>
 </head>
 <body>
@@ -83,19 +108,20 @@
             You like wine? Beer? Well, what makes boring grape juice a tasty wine is fermentation, done by m.i.c.r.o.b.e.s. I work in gastronomy, my focus is on making delicious foods, and one tool I use is selecting different microbes, droping them together in a cocktail shaker and BANG! Now, in order to do this, i kinda need to controll them. The PioReactor is sick, but it only works with single cultures and doesnt allow other sensors like the ones I use. So hell yea! Lets build my own! And one of the coolest things is that mixed-cultures is actually quite a hot topyc right now on microbiology but sadly there is not much tech about it...
         </div>          
         <div class="subtitle">
-            Chronogram and sketches
+            General Sketch
+        </div>
+        <div class="image">
+            <img src="General1.png" alt="General Sketch">
         </div>
         <div class="text">
-            1.......Vial Design
+            Click.......<a href="file:///Users/curropolo/Documents/GitHub/PS70-HV/W1/General2.svg" target="_blank">H.E.R.E</a>....for a more detailed view
         </div> 
-          <div class="text">
-            1.......Reactor Design
-         </div>
-        <div class="text">
-            1.......Assambly and electronic checks
-        </div> 
-          <div class="text">
-            1.......Optical Density: Back vs Side Scattering
     </div>
+    
+    <!-- Enlace con la imagen "home.png" -->
+    <a class="home-link" href="file:///Users/curropolo/Documents/GitHub/PS70-HV/index.html">
+        <img src="home.png" alt="Home">
+    </a>
+
 </body>
 </html>
