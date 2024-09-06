@@ -12,11 +12,13 @@
       padding: 0;
       font-family: 'Oswald', sans-serif;
       color: white;
+      overflow-y: auto; /* Permite el scroll vertical */
+      height: 100%; /* Asegura que el body ocupe el 100% de la altura */
     }
 
     /* Container for background and overlay */
     .background-container {
-      position: fixed;
+      position: fixed; /* Mantiene la imagen de fondo fija */
       top: 0;
       left: 0;
       width: 100%;
@@ -29,7 +31,7 @@
     .background-container img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: cover; /* Asegura que la imagen cubra toda la pantalla */
       filter: brightness(50%); /* Reduce brightness */
     }
 
@@ -41,7 +43,7 @@
     }
 
     .home-text {
-      font-size: 500%; 
+      font-size: 500%;
       text-align: left;
     }
   </style>
@@ -51,12 +53,15 @@
   <div class="background-container">
     <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWh3N2xjbXJxYnAxOXBsYTI2OTUzOXM1cWg1Mmdna2F2a2gyczl0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SHzl9Rp6UjlJm9GbSg/giphy.webp" alt="Background">
   </div>
+  
+  <div class="content">
     <div class="home-text">
       <pre>
  /home
     </div>
     <pre style="color:white;">
-    </pre> <pre style="color:yellow;">
+    </pre> 
+    <pre style="color:yellow;">
     - - - - - - - - - - - - - - 
 
      Name................<span style="color:white;">Curro Polo</span>
@@ -73,6 +78,7 @@
     <pre style="color:yellow;">
     - - - - - - - - - - - - - - 
     </pre>
+
     <style>
       .week-label {
         color: yellow; /* Set your preferred color here */
@@ -124,6 +130,7 @@
       Reactor....<a href="final-project/final/final.html">foldy mcfolderson</a>
     </pre>
   </div>
+
 </body>
 
 <link rel="stylesheet" href="style.css">
