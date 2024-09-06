@@ -5,115 +5,125 @@
   <title>Curro</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.google.com/noto/specimen/Noto+Sans" rel="stylesheet">
   <style>
     body {
-      background-color: #39FF14; /* Verde brillante */
+      margin: 0;
+      padding: 0;
+      font-family: 'Oswald', sans-serif;
+      color: white;
+    }
+
+    /* Container for background and overlay */
+    .background-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    /* Background GIF */
+    .background-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(50%); /* Reduce brightness */
+    }
+
+    /* Content */
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
     }
 
     .home-text {
-      font-size: 400%; /* 4 veces más grande */
-      font-family: 'Oswald', sans-serif; /* Tipo de letra diferente */
-      text-align: center;
+      font-size: 500%; 
+      text-align: left;
     }
-
-    .week-one { color: #FF5733; }   /* Rojo Naranja */
-    .week-two { color: #FFB833; }   /* Naranja Brillante */
-    .week-three { color: #3357FF; } /* Azul */
-    .week-four { color: #FF33A6; }  /* Rosa */
-    .week-five { color: #FF8C33; }  /* Naranja */
-    .week-six { color: #B833FF; }   /* Púrpura */
-    .week-seven { color: #33D2FF; } /* Azul Cielo */
-    .week-eight { color: #FF3381; } /* Fucsia */
-    .week-nine { color: #FF33FF; }  /* Magenta */
-    .week-ten { color: #FFA833; }   /* Naranja Claro */
-    .week-eleven { color: #FF5733; }/* Verde Claro */
-    .week-twelve { color: #3385FF; }/* Azul Claro */
-    .final-project { color: #FF3333; } /* Rojo */
   </style>
 </head>
 
 <body>
-   <div style="text-align:center;">
-    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/lego-chef-11397045-9148500.png?f=webp" alt="Meme Image" style="max-width:100%; height:auto;">
+  <div class="background-container">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWh3N2xjbXJxYnAxOXBsYTI2OTUzOXM1cWg1Mmdna2F2a2gyczl0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SHzl9Rp6UjlJm9GbSg/giphy.webp" alt="Background">
   </div>
-  <div class="home-text">
-    <pre>
-  /home
+    <div class="home-text">
+      <pre>
+ /home
+    </div>
+    <pre style="color:white;">
+    </pre> <pre style="color:yellow;">
+    - - - - - - - - - - - - - - 
+
+     Name........<span style="color:white;">Curro Polo</span>
+    </pre>
+    <pre style="color:yellow;">
+     Position............<span style="color:white;">TF</span>
+    </pre>
+    <pre style="color:yellow;">
+     Area......<span style="color:white;">Food Science</span>
+    </pre>
+    <pre style="color:yellow;">
+     Who am I?<a href="https://www.instagram.com/curropolocooks/" target="_blank" style="color:white; text-decoration:none;">....@curropolocooks</a>
+    </pre>
+    <pre style="color:yellow;">
+    - - - - - - - - - - - - - - 
+    </pre>
+    <style>
+      .week-label {
+        color: yellow; /* Set your preferred color here */
+      }
+
+      .week-label a {
+        color: white;
+        text-decoration: none; /* Removes the underline from the link */
+      }
+    </style>
+
+    <pre class="week-label">
+      W1.........<a href="W1/Project-idea.html">final project ideation & planning</a>
+    </pre>
+    <pre class="week-label">
+      W2.........<a href="W2/week2/2.html">2D design & cutting</a>
+    </pre>
+    <pre class="week-label">
+      W3.........<a href="W3/week3/3.html">kinetic sculpture</a>
+    </pre>
+    <pre class="week-label">
+      W4.........<a href="W4/week4/4.html">microcontroller programming</a>
+    </pre>
+    <pre class="week-label">
+      W5.........<a href="W5/week5/5.html">3D design & printing</a>
+    </pre>
+    <pre class="week-label">
+      W6.........<a href="W6/week6/6.html">electronic input devices</a>
+    </pre>
+    <pre class="week-label">
+      W7.........<a href="W7/final/final.html">electronic output devices (mvp)</a>
+    </pre>
+    <pre class="week-label">
+      W8.........<a href="W8/week8/8.html">cnc milling, molding & casting</a>
+    </pre>
+    <pre class="week-label">
+      W9.........<a href="W9/week9/9.html">radio, wifi, bluetooth</a>
+    </pre>
+    <pre class="week-label">
+      W10........<a href="W10/week10/10.html">machine building & end effectors</a>
+    </pre>
+    <pre class="week-label">
+      W11........<a href="W11/final/final.html">computer programming</a>
+    </pre>
+    <pre class="week-label">
+      W12........<a href="W12/week10/10.html">project integration</a>
+    </pre>
+    <pre class="week-label">
+      Reactor....<a href="final-project/final/final.html">foldy mcfolderson</a>
     </pre>
   </div>
-<div>
-  <pre style="color:gray">
-  # welcome
-  </pre>
-  <pre style="color:gray">
-  # ---------------------------------
-  </pre>
-  <pre>
-  name               Curro Polo
-  </pre>
-  <pre>
-  year               2025
-  </pre>
-  <pre>
-  concentration      Food Science
-  </pre>
-  <pre>
-  </pre>
-  <pre style="color:gray">
-  # about me
-  </pre>
-  <pre>
-  <a href="https://www.instagram.com/curropolocooks/" target="_blank" style="color:gray; text-decoration:none;">Instagram: @curropolocooks</a>
-  </pre>
-</div>
-<div>
-  <pre style="color:gray">
-  # assignments
-  </pre>
-  <pre style="color:gray">
-  # ---------------------------------
-  </pre>
- <pre class="week-one">
-  week one           <a href="week-one/Project-idea.html">final project ideation & planning</a>
-</pre>
-  <pre class="week-two">
-  week two           <a href="weeks/week2/2.html">2D design & cutting</a> 
-  </pre>
-  <pre class="week-three">
-  week three         <a href="weeks/week3/3.html">kinetic sculpture</a> 
-  </pre>
-  <pre class="week-four">
-  week four          <a href="weeks/week4/4.html">microcontroller programming</a> 
-  </pre>
-  <pre class="week-five">
-  week five          <a href="weeks/week5/5.html">3D design & printing</a> 
-  </pre>
-  <pre class="week-six">
-  week six           <a href="weeks/week6/6.html">electronic input devices</a> 
-  </pre>
-  <pre class="week-seven">
-  week seven         <a href="weeks/final/final.html">electronic output devices (mvp)</a> 
-  </pre>
-  <pre class="week-eight">
-  week eight         <a href="weeks/week8/8.html">cnc milling, molding & casting</a> 
-  </pre>
-  <pre class="week-nine">
-  week nine          <a href="weeks/week9/9.html">radio, wifi, bluetooth</a> 
-  </pre>
-  <pre class="week-ten">
-  week ten           <a href="weeks/week10/10.html">machine building & end effectors</a> 
-  </pre>
-  <pre class="week-eleven">
-  week eleven        <a href="weeks/final/final.html">computer programming</a> 
-  </pre>
-  <pre class="week-twelve">
-  week twelve        <a href="weeks/week10/10.html">project integration</a> 
-  </pre>
-  <pre class="final-project">
-  final project      <a href="weeks/final/final.html">foldy mcfolderson</a> 
-  </pre>
-</div>
 </body>
 
 <link rel="stylesheet" href="style.css">
