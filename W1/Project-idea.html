@@ -9,44 +9,93 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Noto Sans', sans-serif;
-            background-color: white;
-            color: #ff66c4; /* Color rosa menos brillante */
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start; /* Ajusta el contenido al inicio (arriba) */
+            font-family: 'Noto Sans', monospace;
+            color: #ff66c4; /* Color rosa */
             height: 100vh;
-            overflow: hidden;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODl3Mnl1dmU1aHpzbGlkYnMycjE1amxqdnd0MHUyNHQyZXlleHh4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8w61HSu6xQjoa2NzKN/giphy.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            margin-left: 5%;
+            margin-right: 10%;
+            margin-top: 5%;
+            text-align: left;
+            color: white; /* Color blanco para el subtítulo y el texto adicional */
         }
 
         .title {
-            margin-left: 5%;
-            margin-top: 5%; /* Subir el título más cerca de la parte superior */
-            font-size: 3em;
+            font-size: 4em;
+            margin: 0;
+            color: #ff66c4; 
         }
 
         .title em {
-            font-style: italic;
+            font-style: href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
         }
 
-        .image {
-            background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFpamJqc2QzdzEzd2VpcGd3cWwyc21xcDRsMzJvbjdsaDU0dnpycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtctirmx9sLeAoaeFW/giphy.webp');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: right;
-            width: 50%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            right: 0;
-            filter: brightness(100%); /* Hacer la imagen menos brillante */
+        .subtitle {
+            font-size: 1.5em;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: yellow; 
+        }
+
+        .text {
+            font-size: 1.2em;
+            margin: 0;
+            margin-bottom: 60px; /* Añadir espacio debajo de este párrafo */
+        }
+
+        .text a {
+            color: #39ff14; /* Verde fosforito para el enlace */
+            text-decoration: none;
+        }
+
+        .text a:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse por encima */
         }
     </style>
 </head>
 <body>
-    <div class="title">
-        /Final Project <em>Idea</em>
+    <div class="content">
+        <div class="title">
+            /Final Project <em>Idea</em>
+        </div>
+        <div class="subtitle">
+            Introduction
+        </div>
+        <div class="text">
+            This projects aims to scale and customize the existing <a href="https://pioreactor.com/?srsltid=AfmBOoo5Gn7iFJe_PQtD7GVyW1AGFdQYLFSCQR1DeV9J7KWXmVCRaJ_z" target="_blank">PioReactor</a>. The idea verses around taking advantage of the existing software of the company to incorporate my own sensors, personalize with code on the UI and build with the technologies of PS70 the proptotype. 
+        </div>          
+        <div class="subtitle">
+            Why is this relevant?
+        </div>
+        <div class="text">
+            You like wine? Beer? Well, what makes boring grape juice a tasty wine is fermentation, done by m.i.c.r.o.b.e.s. I work in gastronomy, my focus is on making delicious foods, and one tool I use is selecting different microbes, droping them together in a cocktail shaker and BANG! Now, in order to do this, i kinda need to controll them. The PioReactor is sick, but it only works with single cultures and doesnt allow other sensors like the ones I use. So hell yea! Lets build my own! And one of the coolest things is that mixed-cultures is actually quite a hot topyc right now on microbiology but sadly there is not much tech about it...
+        </div>          
+        <div class="subtitle">
+            Chronogram and sketches
+        </div>
+        <div class="text">
+            1.......Vial Design
+        </div> 
+          <div class="text">
+            1.......Reactor Design
+         </div>
+        <div class="text">
+            1.......Assambly and electronic checks
+        </div> 
+          <div class="text">
+            1.......Optical Density: Back vs Side Scattering
     </div>
-    <div class="image"></div>
 </body>
 </html>
